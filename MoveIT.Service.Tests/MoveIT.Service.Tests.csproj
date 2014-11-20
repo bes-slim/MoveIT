@@ -60,8 +60,12 @@
     <Compile Include="Core.Tests\CarsCostsRuleTests.cs" />
     <Compile Include="Core.Tests\CarsNeededCalculatorTests.cs" />
     <Compile Include="Core.Tests\DistancePriceCalculatorTests.cs" />
+    <Compile Include="Core.Tests\LongDistanceRuleTests.cs" />
+    <Compile Include="Core.Tests\MiddleDistanceRuleTests.cs" />
     <Compile Include="Core.Tests\OffrePriceCalculatorTests.cs" />
     <Compile Include="Core.Tests\OneCarPerFiftySquareMetersRuleTests.cs" />
+    <Compile Include="Core.Tests\PianoRuleTests.cs" />
+    <Compile Include="Core.Tests\ShortDistanceRuleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Core.Tests\SpecialFurnitreCalculatorTests.cs" />
   </ItemGroup>

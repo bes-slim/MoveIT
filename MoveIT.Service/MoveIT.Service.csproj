@@ -116,7 +116,6 @@
     <Compile Include="Core\Contracts\ISpecialFurnitreCalculator.cs" />
     <Compile Include="Core\Contracts\ISpecialFurnitureRule.cs" />
     <Compile Include="Core\DistancePriceCalculator.cs" />
-    <Compile Include="Core\IFakeService.cs" />
     <Compile Include="Core\LongDistanceRule.cs" />
     <Compile Include="Core\MiddleDistanceRule.cs" />
     <Compile Include="Core\OffrePriceCalcualtor.cs" />
