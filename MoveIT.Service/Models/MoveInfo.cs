@@ -11,5 +11,6 @@ namespace MoveIT.Service.Models
         public int Area { get; set; }
         public bool HasPiano { get; set; }
         public int BasementArea { get; set; }
+ 
     }
 }

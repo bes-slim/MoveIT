@@ -25,5 +25,10 @@ namespace MoveIT.Service.Controllers
         {
             return _offerPriceCalculator.CalculatePrice(info);
         }
+        [HttpGet]
+        public decimal fake()
+        {
+            return 123m;
+        }
     }
 }

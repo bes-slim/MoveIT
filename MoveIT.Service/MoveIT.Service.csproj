@@ -103,6 +103,7 @@
     <Compile Include="App_Start\JsonFormatterConfig.cs" />
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Models\CompanyOffer.cs" />
     <Compile Include="Controllers\CalculateController.cs" />
     <Compile Include="Core\BasementAsDoubleAreaRule.cs" />
     <Compile Include="Core\CarsCostsRule.cs" />
@@ -124,10 +125,15 @@
     <Compile Include="Core\ShortDistanceRule.cs" />
     <Compile Include="Core\SpecialFurnitreCalculator.cs" />
     <Compile Include="Core\SpecialFurnitureCostsRule.cs" />
+    <Compile Include="ExtendIT.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Core\Contracts\ICompanyOffrePriceCalculator.cs" />
+    <Compile Include="Core\Contracts\IOfferCost.cs" />
     <Compile Include="Models\MoveInfo.cs" />
+    <Compile Include="Core\MoveItOffrePriceCalculator.cs" />
+    <Compile Include="Core\OfferCost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
