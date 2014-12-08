@@ -1,9 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Web;
+using MoveIT.Service.Models;
 
 namespace MoveIT.Service
 {
-    public class ExtendIT
+    //interface IClientTypeRule
+    //{
+    //    bool IsType { get; set; } 
+    //    void 
+
+    //}
+
+
+    public class ExtendIt
     {
+       
+
+        
     }
 }

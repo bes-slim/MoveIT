@@ -105,26 +105,26 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Models\CompanyOffer.cs" />
     <Compile Include="Controllers\CalculateController.cs" />
-    <Compile Include="Core\BasementAsDoubleAreaRule.cs" />
-    <Compile Include="Core\CarsCostsRule.cs" />
-    <Compile Include="Core\CarsNeededCalculator.cs" />
-    <Compile Include="Core\Contracts\ICarsNeededCalculator.cs" />
-    <Compile Include="Core\Contracts\ICarsNeededForAreaRule.cs" />
-    <Compile Include="Core\Contracts\IDistancePriceCalculator.cs" />
-    <Compile Include="Core\Contracts\IDistancePriceRule.cs" />
+    <Compile Include="Core\MoveIT\BasementAsDoubleAreaRule.cs" />
+    <Compile Include="Core\MoveIT\CarsCostsRule.cs" />
+    <Compile Include="Core\MoveIT\CarsNeededCalculator.cs" />
+    <Compile Include="Core\Contracts\MoveIT\ICarsNeededCalculator.cs" />
+    <Compile Include="Core\Contracts\MoveIT\ICarsNeededForAreaRule.cs" />
+    <Compile Include="Core\Contracts\MoveIT\IDistancePriceCalculator.cs" />
+    <Compile Include="Core\Contracts\MoveIT\IDistancePriceRule.cs" />
     <Compile Include="Core\Contracts\IOfferPriceCalculator.cs" />
     <Compile Include="Core\Contracts\IOffreCostsRule.cs" />
-    <Compile Include="Core\Contracts\ISpecialFurnitreCalculator.cs" />
-    <Compile Include="Core\Contracts\ISpecialFurnitureRule.cs" />
-    <Compile Include="Core\DistancePriceCalculator.cs" />
-    <Compile Include="Core\LongDistanceRule.cs" />
-    <Compile Include="Core\MiddleDistanceRule.cs" />
+    <Compile Include="Core\Contracts\MoveIT\ISpecialFurnitreCalculator.cs" />
+    <Compile Include="Core\Contracts\MoveIT\ISpecialFurnitureRule.cs" />
+    <Compile Include="Core\MoveIT\DistancePriceCalculator.cs" />
+    <Compile Include="Core\MoveIT\LongDistanceRule.cs" />
+    <Compile Include="Core\MoveIT\MiddleDistanceRule.cs" />
     <Compile Include="Core\OffrePriceCalcualtor.cs" />
-    <Compile Include="Core\OneCarPerFiftySquareMetersRule.cs" />
-    <Compile Include="Core\PianoRule.cs" />
-    <Compile Include="Core\ShortDistanceRule.cs" />
-    <Compile Include="Core\SpecialFurnitreCalculator.cs" />
-    <Compile Include="Core\SpecialFurnitureCostsRule.cs" />
+    <Compile Include="Core\MoveIT\OneCarPerFiftySquareMetersRule.cs" />
+    <Compile Include="Core\MoveIT\PianoRule.cs" />
+    <Compile Include="Core\MoveIT\ShortDistanceRule.cs" />
+    <Compile Include="Core\MoveIT\SpecialFurnitreCalculator.cs" />
+    <Compile Include="Core\MoveIT\SpecialFurnitureCostsRule.cs" />
     <Compile Include="ExtendIT.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Core\Contracts\Common\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

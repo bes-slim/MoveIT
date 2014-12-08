@@ -5,11 +5,11 @@ using MoveIT.Service.Models;
 
 namespace MoveIT.Service.Core
 {
-    public class OfferCost : IOfferCost
+    public class CompanyOffers : ICompanyOffers
     {
         private readonly List<ICompanyOffrePriceCalculator> _companyOffrePriceCalculators;
 
-        public OfferCost(List<ICompanyOffrePriceCalculator> companyOffrePriceCalculators)
+        public CompanyOffers(List<ICompanyOffrePriceCalculator> companyOffrePriceCalculators)
         {
             _companyOffrePriceCalculators = companyOffrePriceCalculators;
         }

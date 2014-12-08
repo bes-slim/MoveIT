@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MoveIT.Service.Core;
+using MoveIT.Service.Core.MoveIT;
 using MoveIT.Service.Models;
 using Xunit;
 

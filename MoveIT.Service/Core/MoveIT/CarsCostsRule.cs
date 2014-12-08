@@ -1,7 +1,8 @@
 using MoveIT.Service.Core.Contracts;
+using MoveIT.Service.Core.Contracts.MoveIT;
 using MoveIT.Service.Models;
 
-namespace MoveIT.Service.Core
+namespace MoveIT.Service.Core.MoveIT
 {
     public class CarsCostsRule : IOffreCostsRule
     {

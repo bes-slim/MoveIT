@@ -3,7 +3,7 @@ using MoveIT.Service.Models;
 
 namespace MoveIT.Service.Core.Contracts
 {
-    public interface IOfferCost
+    public interface ICompanyOffers
     {
         List<CompanyOffer> CalculateOfferCost(MoveInfo info);
     }

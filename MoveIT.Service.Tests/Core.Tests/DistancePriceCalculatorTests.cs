@@ -2,6 +2,8 @@
 using Moq;
 using MoveIT.Service.Core;
 using MoveIT.Service.Core.Contracts;
+using MoveIT.Service.Core.Contracts.MoveIT;
+using MoveIT.Service.Core.MoveIT;
 using MoveIT.Service.Models;
 using Xunit;
 

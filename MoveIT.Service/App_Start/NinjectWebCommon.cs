@@ -1,6 +1,8 @@
 using System.Linq;
 using MoveIT.Service.Core;
 using MoveIT.Service.Core.Contracts;
+using MoveIT.Service.Core.Contracts.MoveIT;
+using MoveIT.Service.Core.MoveIT;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(MoveIT.Service.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(MoveIT.Service.App_Start.NinjectWebCommon), "Stop")]
