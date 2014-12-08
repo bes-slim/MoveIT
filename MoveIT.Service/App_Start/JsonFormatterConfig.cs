@@ -1,7 +1,7 @@
 ﻿using System.Web.Http;
 using Newtonsoft.Json.Serialization;
 
-namespace MoveIT.Service
+namespace MovePricer.Service
 {
     public static class JsonFormatterConfig
     {

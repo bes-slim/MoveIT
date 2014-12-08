@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web;
-using MoveIT.Service.Models;
+using MovePricer.Service.Models;
 
-namespace MoveIT.Service
+namespace MovePricer.Service
 {
     //interface IClientTypeRule
     //{

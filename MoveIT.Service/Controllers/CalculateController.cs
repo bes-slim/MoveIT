@@ -5,10 +5,10 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
-using MoveIT.Service.Core.Contracts;
-using MoveIT.Service.Models;
+using MovePricer.Service.Core.Contracts;
+using MovePricer.Service.Models;
 
-namespace MoveIT.Service.Controllers
+namespace MovePricer.Service.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class CalculateController : ApiController

@@ -1,4 +1,4 @@
-﻿namespace MoveIT.Service.Models
+﻿namespace MovePricer.Service.Models
 {
     public class CompanyOffer
     {

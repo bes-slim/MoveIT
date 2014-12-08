@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using MoveIT.Service.Core.Contracts.MoveIT;
-using MoveIT.Service.Models;
+using MovePricer.Service.Core.Contracts.MoveIT;
+using MovePricer.Service.Models;
 
-namespace MoveIT.Service.Core.MoveIT
+namespace MovePricer.Service.Core.MoveIT
 {
     public class SpecialFurnitreCalculator : ISpecialFurnitreCalculator
     {

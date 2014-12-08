@@ -6,7 +6,7 @@
     <ProjectGuid>{A12547C9-FEA9-4B49-B4AE-04BCFDEF7145}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MoveIT.Service.Tests</RootNamespace>
+    <RootNamespace>MovePricer.Service.Tests</RootNamespace>
     <AssemblyName>MoveIT.Service.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -70,9 +70,9 @@
     <Compile Include="Core.Tests\SpecialFurnitreCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MoveIT.Service\MoveIT.Service.csproj">
+    <ProjectReference Include="..\MoveIT.Service\MovePricer.Service.csproj">
       <Project>{75B5692B-5F66-4AE5-9143-BE8B34524159}</Project>
-      <Name>MoveIT.Service</Name>
+      <Name>MovePricer.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

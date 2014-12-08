@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace MoveIT.Service
+namespace MovePricer.Service
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

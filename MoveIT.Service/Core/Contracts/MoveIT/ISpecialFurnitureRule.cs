@@ -1,6 +1,6 @@
-using MoveIT.Service.Models;
+using MovePricer.Service.Models;
 
-namespace MoveIT.Service.Core.Contracts.MoveIT
+namespace MovePricer.Service.Core.Contracts.MoveIT
 {
     public interface ISpecialFurnitureRule
     {

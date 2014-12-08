@@ -1,10 +1,10 @@
 ﻿using Moq;
-using MoveIT.Service.Core;
-using MoveIT.Service.Core.Contracts;
-using MoveIT.Service.Models;
+using MovePricer.Service.Core;
+using MovePricer.Service.Core.Contracts;
+using MovePricer.Service.Models;
 using Xunit;
 
-namespace MoveIT.Service.Tests.Core.Tests
+namespace MovePricer.Service.Tests.Core.Tests
 {
     public class OffrePriceCalculatorTests
     {

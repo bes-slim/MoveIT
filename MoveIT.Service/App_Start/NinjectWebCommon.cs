@@ -1,13 +1,13 @@
 using System.Linq;
-using MoveIT.Service.Core;
-using MoveIT.Service.Core.Contracts;
-using MoveIT.Service.Core.Contracts.MoveIT;
-using MoveIT.Service.Core.MoveIT;
+using MovePricer.Service.Core;
+using MovePricer.Service.Core.Contracts;
+using MovePricer.Service.Core.Contracts.MoveIT;
+using MovePricer.Service.Core.MoveIT;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(MoveIT.Service.App_Start.NinjectWebCommon), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(MoveIT.Service.App_Start.NinjectWebCommon), "Stop")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(MovePricer.Service.App_Start.NinjectWebCommon), "Start")]
+[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(MovePricer.Service.App_Start.NinjectWebCommon), "Stop")]
 
-namespace MoveIT.Service.App_Start
+namespace MovePricer.Service.App_Start
 {
     using System;
     using System.Web;

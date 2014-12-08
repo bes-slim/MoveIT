@@ -7,7 +7,7 @@
     <ProjectGuid>{AB836CB5-70C8-4A18-88AE-2506166EF557}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MoveIT.Service.Extend</RootNamespace>
+    <RootNamespace>MovePricer.Service.Extend</RootNamespace>
     <AssemblyName>MoveIT.Service.Extend</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

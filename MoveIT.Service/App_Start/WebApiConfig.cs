@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace MoveIT.Service
+namespace MovePricer.Service
 {
     public static class WebApiConfig
     {

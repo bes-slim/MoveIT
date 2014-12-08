@@ -1,7 +1,7 @@
-﻿using MoveIT.Service.Core.Contracts;
-using MoveIT.Service.Models;
+﻿using MovePricer.Service.Core.Contracts;
+using MovePricer.Service.Models;
 
-namespace MoveIT.Service.Core
+namespace MovePricer.Service.Core
 {
     public class MoveItOffrePriceCalculator : ICompanyOffrePriceCalculator
     {

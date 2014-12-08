@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoveIT.Service.Extend
+namespace MovePricer.Service.Extend
 {
     public class MoveInfo
     {

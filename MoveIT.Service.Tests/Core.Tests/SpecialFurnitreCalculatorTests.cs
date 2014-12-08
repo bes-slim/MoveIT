@@ -1,12 +1,12 @@
 ﻿using Moq;
-using MoveIT.Service.Core;
-using MoveIT.Service.Core.Contracts;
-using MoveIT.Service.Core.Contracts.MoveIT;
-using MoveIT.Service.Core.MoveIT;
-using MoveIT.Service.Models;
+using MovePricer.Service.Core;
+using MovePricer.Service.Core.Contracts;
+using MovePricer.Service.Core.Contracts.MoveIT;
+using MovePricer.Service.Core.MoveIT;
+using MovePricer.Service.Models;
 using Xunit;
 
-namespace MoveIT.Service.Tests.Core.Tests
+namespace MovePricer.Service.Tests.Core.Tests
 {
     public class SpecialFurnitreCalculatorTests
     {

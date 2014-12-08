@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MoveIT.Service.Models
+namespace MovePricer.Service.Models
 {
     public class MoveInfo
     {

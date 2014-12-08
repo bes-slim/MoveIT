@@ -1,6 +1,6 @@
-﻿using MoveIT.Service.Models;
+﻿using MovePricer.Service.Models;
 
-namespace MoveIT.Service.Core.Contracts
+namespace MovePricer.Service.Core.Contracts
 {
     public interface IOfferPriceCalculator
     {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveIT.Service", "MoveIT.Service\MoveIT.Service.csproj", "{75B5692B-5F66-4AE5-9143-BE8B34524159}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovePricer.Service", "MoveIT.Service\MovePricer.Service.csproj", "{75B5692B-5F66-4AE5-9143-BE8B34524159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveIT.Service.Tests", "MoveIT.Service.Tests\MoveIT.Service.Tests.csproj", "{A12547C9-FEA9-4B49-B4AE-04BCFDEF7145}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovePricer.Service.Tests", "MoveIT.Service.Tests\MovePricer.Service.Tests.csproj", "{A12547C9-FEA9-4B49-B4AE-04BCFDEF7145}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{50FFAA79-433C-4909-BD86-22D8C6668620}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{50FFAA
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveIT.Service.Extend", "MoveIT.Service.Extend\MoveIT.Service.Extend.csproj", "{AB836CB5-70C8-4A18-88AE-2506166EF557}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovePricer.Service.Extend", "MoveIT.Service.Extend\MovePricer.Service.Extend.csproj", "{AB836CB5-70C8-4A18-88AE-2506166EF557}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
